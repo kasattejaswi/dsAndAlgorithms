@@ -7,7 +7,6 @@ import (
 
 type DArray struct {
 	currentLen int
-	// TODO Replace map with bucket linked list
 	currentArr map[int]int
 }
 
